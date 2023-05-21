@@ -1,0 +1,18 @@
+extend base
+
+block content
+
+    section.upload 
+        h1 FFMPEG Noise Reducer 
+        .uploadContainer
+            img(src="/upload-tips.png" height="100px" width="130px")
+            span Upload video to remove noise  
+            form#video-upload-form 
+                input(type="file", name="video-url" id="video-url" accept=".mp4" placeholder="Upload Video")
+                button(type="submit")
+                    .icon
+                    i.fa-solid.fa-upload
+                    p Convert
+
+        //- .icon 
+        //-   i.fa-solid.fa-upload

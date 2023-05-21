@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+body {
+  background-color: #15202b;
+}
+nav {
+  padding: 1rem 1rem;
+  background-color: #2f4150;
+}
+.icon {
+  color: #ffff;
+  font-size: 35px;
+}
+nav h2 {
+  color: #fff;
+}
+.upload h1 {
+  text-align: center;
+  margin-top: 2rem;
+  color: #fff;
+}
+.uploadContainer {
+  display: flex;
+  border: 2px dotted rgb(100, 111, 172);
+  flex-direction: column;
+  padding: 3rem;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: 2rem auto;
+  gap: 1rem;
+}
+.uploadContainer span {
+  color: rgb(192, 192, 192);
+  font-size: 14px;
+  font-weight: 500;
+}
+#video-upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#video-upload-form button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border-radius: 4px;
+  gap: 8px;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  color: white;
+  font-size: 20px;
+  border: 0px;
+}
+.get-status {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.get-status button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 6px;
+  border-radius: 4px;
+  gap: 8px;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  color: white;
+  font-size: 20px;
+  border: 0px;
+}
+
+input {
+  border-radius: 4px;
+  padding: 6px;
+  outline: none;
+  border: none;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+.download-btn {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  border-radius: 4px;
+  gap: 8px;
+  background-image: linear-gradient(to right, #8360c3, #2ebf91);
+  color: white;
+  font-size: 20px;
+  border: 0px;
+}
