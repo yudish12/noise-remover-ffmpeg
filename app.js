@@ -2,9 +2,8 @@ import express from "express";
 import path from "path";
 import multer from "multer";
 import Queue from "bull";
-import { downloadVideo } from "./utils/downloadVideos.js";
+
 import { removeNoiseFromVideo } from "./utils/removeNoise.js";
-import fs from "fs";
 
 const app = express();
 
